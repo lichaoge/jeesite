@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.sys.entity;
 
@@ -12,7 +12,7 @@ import com.thinkgem.jeesite.common.persistence.DataEntity;
 
 /**
  * 字典Entity
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-05-15
  */
 public class Dict extends DataEntity<Dict> {

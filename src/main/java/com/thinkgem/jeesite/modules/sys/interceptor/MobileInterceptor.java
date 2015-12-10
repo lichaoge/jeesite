@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.sys.interceptor;
 
@@ -15,7 +15,7 @@ import com.thinkgem.jeesite.common.utils.UserAgentUtils;
 
 /**
  * 手机端视图拦截器
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-9-1
  */
 public class MobileInterceptor extends BaseService implements HandlerInterceptor {

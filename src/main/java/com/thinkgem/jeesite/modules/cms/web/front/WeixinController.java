@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.cms.web.front;
 
@@ -15,7 +15,7 @@ import com.thinkgem.jeesite.modules.cms.utils.WiexinSignUtil;
 
 /**
  * 测试Controller
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-02-28
  */
 @Controller
@@ -34,11 +34,11 @@ public class WeixinController extends BaseController {
 	@ResponseBody
 	public String get(String signature, String timestamp, String nonce, String echostr, HttpServletRequest request) {
 		
-		System.out.println("=============================================== get start");
+		System.out.println("=============================================== get 进入微信的方法了");
 		for (Object o : request.getParameterMap().keySet()){
 			System.out.println(o + " = " + request.getParameter((String)o));
 		}
-		System.out.println("=============================================== get end");
+		System.out.println("=============================================== get 进入了");
 		
         // 通过检验signature对请求进行校验，若校验成功则原样返回echostr，表示接入成功，否则接入失败  
         if (WiexinSignUtil.checkSignature(signature, timestamp, nonce)) {  

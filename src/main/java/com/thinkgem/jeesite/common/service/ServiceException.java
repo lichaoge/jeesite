@@ -1,11 +1,11 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.service;
 
 /**
  * Service层公用的Exception, 从由Spring管理事务的函数中抛出时会触发事务回滚.
- * @author ThinkGem
+ * Li.XiaoChao
  */
 public class ServiceException extends RuntimeException {
 

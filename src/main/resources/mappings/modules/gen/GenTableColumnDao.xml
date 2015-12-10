@@ -134,8 +134,8 @@
 	
 	<update id="deleteByGenTableId">
 		UPDATE gen_table_column SET 
-			del_flag = #{DEL_FLAG_DELETE}
-		WHERE gen_table_id = #{deleteByGenTableId}
+			del_flag = #{delFlag}
+		WHERE gen_table_id = #{id}
 	</update>
 	
 </mapper>

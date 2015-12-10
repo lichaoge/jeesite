@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.cms.entity;
 
@@ -14,7 +14,7 @@ import com.thinkgem.jeesite.modules.sys.entity.User;
 
 /**
  * 评论Entity
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-05-15
  */
 public class Comment extends DataEntity<Comment> {

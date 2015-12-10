@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.sys.security;
 
@@ -18,7 +18,7 @@ import com.thinkgem.jeesite.common.utils.StringUtils;
 
 /**
  * 表单验证（包含验证码）过滤类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-5-19
  */
 @Service

@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.cms.utils;
 
@@ -30,7 +30,7 @@ import org.springframework.ui.Model;
 
 /**
  * 内容管理工具类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-5-29
  */
 public class CmsUtils {
@@ -140,6 +140,15 @@ public class CmsUtils {
 	 */
 	public static Article getArticle(String articleId){
 		return articleService.get(articleId);
+	}
+	
+	/**
+	 * 获取文章内容
+	 * @param articleId 文章编号
+	 * @return
+	 */
+	public static String getArticleDes(String articleId){
+		return articleService.get(articleId).getDescription();
 	}
 	
 	/**

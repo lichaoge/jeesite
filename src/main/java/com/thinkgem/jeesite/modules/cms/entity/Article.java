@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.cms.entity;
 
@@ -18,7 +18,7 @@ import com.thinkgem.jeesite.modules.cms.utils.CmsUtils;
 
 /**
  * 文章Entity
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-05-15
  */
 public class Article extends DataEntity<Article> {
@@ -122,7 +122,7 @@ public class Article extends DataEntity<Article> {
 		this.keywords = keywords;
 	}
 
-	@Length(min=0, max=255)
+	@Length(min=0, max=10000)
 	public String getDescription() {
 		return description;
 	}

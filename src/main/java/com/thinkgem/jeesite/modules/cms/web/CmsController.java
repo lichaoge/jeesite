@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.cms.web;
 
@@ -14,7 +14,7 @@ import com.thinkgem.jeesite.modules.cms.service.CategoryService;
 
 /**
  * 内容管理Controller
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-4-21
  */
 @Controller

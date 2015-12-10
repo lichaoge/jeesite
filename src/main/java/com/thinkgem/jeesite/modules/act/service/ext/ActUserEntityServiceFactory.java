@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.act.service.ext;
 
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Activiti User Entity Service Factory
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-11-03
  */
 public class ActUserEntityServiceFactory implements SessionFactory {

@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.gen.service;
 
@@ -21,7 +21,7 @@ import com.thinkgem.jeesite.modules.gen.dao.GenTableDao;
 
 /**
  * 业务表Service
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-10-15
  */
 @Service
@@ -162,7 +162,10 @@ public class GenTableService extends BaseService {
 	@Transactional(readOnly = false)
 	public void delete(GenTable genTable) {
 		genTableDao.delete(genTable);
-		genTableColumnDao.deleteByGenTableId(genTable.getId());
+		GenTableColumn genTableColumn=new GenTableColumn();
+		genTableColumn.setDelFlag(GenTableColumn.DEL_FLAG_NORMAL);
+		genTableColumn.setId(genTable.getId());
+		genTableColumnDao.deleteByGenTableId(genTableColumn);
 	}
 	
 }

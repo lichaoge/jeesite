@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.mapper;
 
@@ -32,7 +32,7 @@ import com.google.common.collect.Maps;
 /**
  * 简单封装Jackson，实现JSON String<->Java Object的Mapper.
  * 封装不同的输出风格, 使用不同的builder函数创建实例.
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-11-15
  */
 public class JsonMapper extends ObjectMapper {

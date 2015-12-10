@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.persistence;
 
@@ -21,7 +21,7 @@ import com.thinkgem.jeesite.modules.sys.utils.UserUtils;
 
 /**
  * Entity支持类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-05-16
  */
 @SupTreeList

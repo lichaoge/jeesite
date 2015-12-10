@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.sys.utils;
 
@@ -28,7 +28,7 @@ import com.thinkgem.jeesite.modules.sys.security.SystemAuthorizingRealm.Principa
 
 /**
  * 用户工具类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-12-05
  */
 public class UserUtils {

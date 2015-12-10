@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.security.shiro.cache;
 
@@ -23,7 +23,7 @@ import com.thinkgem.jeesite.common.web.Servlets;
 
 /**
  * 自定义授权缓存管理类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-7-20
  */
 public class JedisCacheManager implements CacheManager {
@@ -45,7 +45,7 @@ public class JedisCacheManager implements CacheManager {
 	
 	/**
 	 * 自定义授权缓存管理类
-	 * @author ThinkGem
+	 * Li.XiaoChao
 	 * @version 2014-7-20
 	 */
 	public class JedisCache<K, V> implements Cache<K, V> {

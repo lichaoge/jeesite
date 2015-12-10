@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.cms.web.front;
 
@@ -26,7 +26,7 @@ import com.thinkgem.jeesite.modules.sys.utils.UserUtils;
 
 /**
  * 网站搜索Controller
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-5-29
  */
 @Controller

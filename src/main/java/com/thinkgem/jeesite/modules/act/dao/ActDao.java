@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.act.dao;
 
@@ -9,7 +9,7 @@ import com.thinkgem.jeesite.modules.act.entity.Act;
 
 /**
  * 审批DAO接口
- * @author thinkgem
+ * Li.XiaoChao
  * @version 2014-05-16
  */
 @MyBatisDao

@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.config;
 
@@ -16,7 +16,7 @@ import com.thinkgem.jeesite.common.utils.StringUtils;
 
 /**
  * 全局配置类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-06-25
  */
 public class Global {

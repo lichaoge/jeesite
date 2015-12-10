@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.utils;
 
@@ -22,11 +22,11 @@ import freemarker.template.Template;
 public class SendMailUtil {
 
 	// private static final String smtphost = "192.168.1.70";
-	private static final String from = "thinkgem@163.com";
-	private static final String fromName = "测试公司";
+	private static final String from = "530990129@qq.com";
+	private static final String fromName = "蓝蓝联盟";
 	private static final String charSet = "utf-8";
-	private static final String username = "thinkgem@163.com";
-	private static final String password = "123456";
+	private static final String username = "530990129@qq.com";
+	private static final String password = "lichao530990";
 
 	private static Map<String, String> hostMap = new HashMap<String, String>();
 	static {
@@ -286,8 +286,8 @@ public class SendMailUtil {
 		map.put("subject", "测试标题");
 		map.put("content", "测试 内容");
 		String templatePath = "mailtemplate/test.ftl";
-		sendFtlMail("test@163.com", "sendemail test!", templatePath, map);
-
+		//sendFtlMail("530990129@qq.com", "sendemail test!", templatePath, map);
+		sendCommonMail("530990129@qq.com", "测试", "ccccccccccccccccccccccccc");
 		// System.out.println(getFileName("mailtemplate/test.ftl"));
 	}
 

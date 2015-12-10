@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.gen.entity;
 
@@ -13,7 +13,7 @@ import com.thinkgem.jeesite.common.utils.StringUtils;
 
 /**
  * 业务表Entity
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-10-15
  */
 public class GenTable extends DataEntity<GenTable> {

@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.AbstractTransactionalJUnit4Spring
 
 /**
  * Spring 单元测试基类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-05-15
  */
 @ActiveProfiles("production")

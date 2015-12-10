@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.common.utils;
 
@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 /**
  * MAC地址工具
  * 
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-12-21
  */
 public class MacUtils {

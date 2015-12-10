@@ -96,7 +96,7 @@
 		<div class="control-group">
 			<label class="control-label">摘要:</label>
 			<div class="controls">
-				<form:textarea path="description" htmlEscape="false" rows="4" maxlength="200" class="input-xxlarge"/>
+				<form:textarea path="description" htmlEscape="false" rows="4"  class="input-xxlarge"/>
 			</div>
 		</div>
 		<div class="control-group">

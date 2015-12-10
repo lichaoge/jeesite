@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.test.entity;
 
@@ -11,7 +11,7 @@ import com.thinkgem.jeesite.common.persistence.TreeEntity;
 
 /**
  * 树结构生成Entity
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2015-04-06
  */
 public class TestTree extends TreeEntity<TestTree> {

@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.oa.entity;
 
@@ -9,7 +9,7 @@ import com.thinkgem.jeesite.modules.sys.entity.User;
 
 /**
  * 审批Entity
- * @author thinkgem
+ * Li.XiaoChao
  * @version 2014-05-16
  */
 public class TestAudit extends ActEntity<TestAudit> {

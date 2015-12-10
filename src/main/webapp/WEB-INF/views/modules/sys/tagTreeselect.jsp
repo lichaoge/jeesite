@@ -38,6 +38,7 @@
 				}
 			};
 		function expandNodes(nodes) {
+			debugger;
 			if (!nodes) return;
 			for (var i=0, l=nodes.length; i<l; i++) {
 				tree.expandNode(nodes[i], true, false, false);
@@ -47,6 +48,7 @@
 			}
 		}
 		$(document).ready(function(){
+			debugger;
 			$.get("${ctx}${url}${fn:indexOf(url,'?')==-1?'?':'&'}&extId=${extId}&isAll=${isAll}&module=${module}&t="
 					+ new Date().getTime(), function(zNodes){
 				// 初始化树结构
@@ -72,6 +74,7 @@
 		
 		// 默认选择节点
 		function selectCheckNode(){
+			debugger;
 			var ids = "${selectIds}".split(",");
 			for(var i=0; i<ids.length; i++) {
 				var node = tree.getNodeByParam("id", (type==3?"u_":"")+ids[i]);
@@ -84,11 +87,13 @@
 			}
 		}
 	  	function focusKey(e) {
+	  		debugger;
 			if (key.hasClass("empty")) {
 				key.removeClass("empty");
 			}
 		}
 		function blurKey(e) {
+			debugger;
 			if (key.get(0).value === "") {
 				key.addClass("empty");
 			}
@@ -97,6 +102,7 @@
 		
 		//搜索节点
 		function searchNode() {
+			debugger;
 			// 取得输入的关键字的值
 			var value = $.trim(key.get(0).value);
 			
@@ -126,7 +132,8 @@
 		}
 		
 		//隐藏所有节点
-		function hideAllNode(nodes){			
+		function hideAllNode(nodes){	
+			debugger;
 			nodes = tree.transformToArray(nodes);
 			for(var i=nodes.length-1; i>=0; i--) {
 				tree.hideNode(nodes[i]);
@@ -134,7 +141,8 @@
 		}
 		
 		//显示所有节点
-		function showAllNode(nodes){			
+		function showAllNode(nodes){	
+			debugger;
 			nodes = tree.transformToArray(nodes);
 			for(var i=nodes.length-1; i>=0; i--) {
 				/* if(!nodes[i].isParent){
@@ -153,6 +161,7 @@
 		
 		//更新节点状态
 		function updateNodes(nodeList) {
+			debugger;
 			tree.showNodes(nodeList);
 			for(var i=0, l=nodeList.length; i<l; i++) {
 				

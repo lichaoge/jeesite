@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.sys.utils;
 
@@ -27,7 +27,7 @@ import com.thinkgem.jeesite.modules.sys.entity.User;
 
 /**
  * 字典工具类
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-11-7
  */
 public class LogUtils {

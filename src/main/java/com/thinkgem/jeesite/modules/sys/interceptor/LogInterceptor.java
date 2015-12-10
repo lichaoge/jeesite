@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.sys.interceptor;
 
@@ -18,7 +18,7 @@ import com.thinkgem.jeesite.modules.sys.utils.LogUtils;
 
 /**
  * 日志拦截器
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2014-8-19
  */
 public class LogInterceptor extends BaseService implements HandlerInterceptor {

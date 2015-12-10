@@ -75,6 +75,14 @@
     <example>${fnc:getArticle(articleId)}</example>  
   </function>
   
+   <function>
+    <description>获取文章内容</description>
+    <name>getArticleDes</name>
+    <function-class>com.thinkgem.jeesite.modules.cms.utils.CmsUtils</function-class>
+    <function-signature>com.thinkgem.jeesite.entity.cms.Article getArticleDes(java.lang.String)</function-signature>
+    <example>${fnc:getArticleDes(articleId)}</example>  
+  </function>
+  
   <function>
     <description>获取文章列表</description>
     <name>getArticleList</name>

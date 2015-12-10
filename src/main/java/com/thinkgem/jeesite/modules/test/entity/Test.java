@@ -1,5 +1,5 @@
 /**
- * Copyright &copy; 2012-2014 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *     .
  */
 package com.thinkgem.jeesite.modules.test.entity;
 
@@ -18,7 +18,7 @@ import com.thinkgem.jeesite.modules.sys.entity.Office;
 
 /**
  * 测试Entity
- * @author ThinkGem
+ * Li.XiaoChao
  * @version 2013-10-17
  */
 @SupTreeList(
